@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="btnPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnPhong.Designer.cs">
+      <DependentUpon>btnPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietPhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChiTietPhongForm.Designer.cs">
+      <DependentUpon>ChiTietPhongForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +76,20 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PhongForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhongForm.Designer.cs">
+      <DependentUpon>PhongForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="btnPhong.resx">
+      <DependentUpon>btnPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChiTietPhongForm.resx">
+      <DependentUpon>ChiTietPhongForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DatPhong.resx">
       <DependentUpon>DatPhong.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhongForm.resx">
+      <DependentUpon>PhongForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +127,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\quang-ba-khach-san.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ok-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tick-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tick-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ok-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customer-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-131.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

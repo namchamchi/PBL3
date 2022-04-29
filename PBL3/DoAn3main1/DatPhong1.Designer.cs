@@ -71,7 +71,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(665, 441);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(171, 56);
             this.button2.TabIndex = 22;
             this.button2.Text = "Đặt phòng";
             this.button2.UseVisualStyleBackColor = true;
@@ -99,6 +99,7 @@
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker4.Location = new System.Drawing.Point(736, 122);
             this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.ShowUpDown = true;
             this.dateTimePicker4.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker4.TabIndex = 19;
             // 
@@ -107,6 +108,7 @@
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker3.Location = new System.Drawing.Point(736, 83);
             this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.ShowUpDown = true;
             this.dateTimePicker3.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker3.TabIndex = 18;
             // 
@@ -155,9 +157,9 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            this.dataGridView2.Location = new System.Drawing.Point(459, 200);
+            this.dataGridView2.Location = new System.Drawing.Point(460, 200);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(477, 213);
+            this.dataGridView2.Size = new System.Drawing.Size(476, 213);
             this.dataGridView2.TabIndex = 12;
             // 
             // Column5
@@ -182,6 +184,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button1);
@@ -257,6 +260,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(935, 509);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button2);

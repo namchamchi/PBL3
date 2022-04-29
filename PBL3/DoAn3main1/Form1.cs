@@ -102,5 +102,9 @@ namespace DoAn3main1
             openChildForm(new DatPhong1());
             SetDateMenuButtonUI(sender);
         }
+        private void btnPhong3_Click(object sender, EventArgs e)
+        {
+            ShowDialog(new ChiTietPhongForm());
+        }
     }
 }
