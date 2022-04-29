@@ -70,6 +70,12 @@
     <Compile Include="DatPhong1.Designer.cs">
       <DependentUpon>DatPhong1.cs</DependentUpon>
     </Compile>
+    <Compile Include="DichVuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DichVuForm.Designer.cs">
+      <DependentUpon>DichVuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DatPhong1.resx">
       <DependentUpon>DatPhong1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DichVuForm.resx">
+      <DependentUpon>DichVuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

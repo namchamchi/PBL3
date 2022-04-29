@@ -35,7 +35,7 @@
             this.btnDoanhThu = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
-            this.btnDangXuat = new System.Windows.Forms.Button();
+            this.btnPhong = new System.Windows.Forms.Button();
             this.panelMain = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
@@ -170,19 +170,19 @@
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // btnDangXuat
+            // btnPhong
             // 
-            this.btnDangXuat.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
-            this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDangXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangXuat.ForeColor = System.Drawing.Color.Black;
-            this.btnDangXuat.Location = new System.Drawing.Point(831, 0);
-            this.btnDangXuat.Name = "btnDangXuat";
-            this.btnDangXuat.Size = new System.Drawing.Size(104, 30);
-            this.btnDangXuat.TabIndex = 15;
-            this.btnDangXuat.Text = "Phòng";
-            this.btnDangXuat.UseVisualStyleBackColor = true;
-            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
+            this.btnPhong.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
+            this.btnPhong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhong.ForeColor = System.Drawing.Color.Black;
+            this.btnPhong.Location = new System.Drawing.Point(831, 0);
+            this.btnPhong.Name = "btnPhong";
+            this.btnPhong.Size = new System.Drawing.Size(104, 30);
+            this.btnPhong.TabIndex = 15;
+            this.btnPhong.Text = "Phòng";
+            this.btnPhong.UseVisualStyleBackColor = true;
+            this.btnPhong.Click += new System.EventHandler(this.btnPhong_Click);
             // 
             // panelMain
             // 
@@ -560,7 +560,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 538);
             this.Controls.Add(this.panelMain);
-            this.Controls.Add(this.btnDangXuat);
+            this.Controls.Add(this.btnPhong);
             this.Controls.Add(this.btnHoaDon);
             this.Controls.Add(this.btnKhachHang);
             this.Controls.Add(this.btnDichVu);
@@ -591,7 +591,7 @@
         private System.Windows.Forms.Button btnDoanhThu;
         private System.Windows.Forms.Button btnNhanVien;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnDangXuat;
+        private System.Windows.Forms.Button btnPhong;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private btnPhong btnPhong1;

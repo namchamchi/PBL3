@@ -155,7 +155,6 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(135, 20);
             this.textBox5.TabIndex = 45;
-            this.textBox5.Text = "Giá tiền";
             // 
             // label4
             // 

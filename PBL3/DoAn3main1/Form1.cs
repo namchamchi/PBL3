@@ -74,6 +74,7 @@ namespace DoAn3main1
 
         private void btnDichVu_Click(object sender, EventArgs e)
         {
+            openChildForm(new DichVuForm());
             SetDateMenuButtonUI(sender);
         }
 
@@ -92,9 +93,10 @@ namespace DoAn3main1
             SetDateMenuButtonUI(sender);
         }
 
-        private void btnDangXuat_Click(object sender, EventArgs e)
+        private void btnPhong_Click(object sender, EventArgs e)
         {
             SetDateMenuButtonUI(sender);
+            openChildForm(new PhongForm());
         }
 
         private void button1_Click(object sender, EventArgs e)

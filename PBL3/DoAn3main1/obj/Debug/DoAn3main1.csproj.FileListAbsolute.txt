@@ -27,3 +27,4 @@ C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.pdb
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.btnPhong.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.ChiTietPhongForm.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.PhongForm.resources
+C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.DichVuForm.resources
