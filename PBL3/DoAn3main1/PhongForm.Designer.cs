@@ -33,19 +33,17 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridViewMF = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMF)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox4
@@ -91,43 +89,16 @@
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(525, 212);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(40, 17);
-            this.checkBox2.TabIndex = 31;
-            this.checkBox2.Text = "Nữ";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(458, 212);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(48, 17);
-            this.checkBox1.TabIndex = 30;
-            this.checkBox1.Text = "Nam";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(430, 163);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(149, 20);
-            this.textBox5.TabIndex = 29;
-            // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(430, 118);
+            this.textBox6.Location = new System.Drawing.Point(468, 118);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(149, 20);
             this.textBox6.TabIndex = 28;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(161, 210);
+            this.textBox3.Location = new System.Drawing.Point(468, 163);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(149, 20);
             this.textBox3.TabIndex = 27;
@@ -146,41 +117,23 @@
             this.textBox1.Size = new System.Drawing.Size(149, 20);
             this.textBox1.TabIndex = 25;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(371, 213);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 13);
-            this.label6.TabIndex = 24;
-            this.label6.Text = "Giới tính";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(371, 121);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 23;
-            this.label5.Text = "SĐT";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(371, 166);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Quốc tịch";
+            this.label5.Text = "Giá tiền";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 210);
+            this.label3.Location = new System.Drawing.Point(371, 163);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 21;
-            this.label3.Text = "CMND/CCCD";
+            this.label3.Text = "Tên phòng ";
             // 
             // label2
             // 
@@ -200,32 +153,52 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Mã Phòng";
             // 
+            // dataGridViewMF
+            // 
+            this.dataGridViewMF.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewMF.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dataGridViewMF.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewMF.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridViewMF.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
+            this.dataGridViewMF.Location = new System.Drawing.Point(0, 243);
+            this.dataGridViewMF.Name = "dataGridViewMF";
+            this.dataGridViewMF.Size = new System.Drawing.Size(935, 266);
+            this.dataGridViewMF.TabIndex = 37;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(464, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 20);
+            this.label4.TabIndex = 38;
+            this.label4.Text = "Phòng";
+            // 
             // PhongForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(935, 509);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.dataGridViewMF);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PhongForm";
             this.Text = "PhongForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMF)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -238,18 +211,15 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridViewMF;
+        private System.Windows.Forms.Label label4;
     }
 }

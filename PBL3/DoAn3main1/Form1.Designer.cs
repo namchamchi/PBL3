@@ -406,8 +406,8 @@
             this.btnPhong2.ItemDondep = "Đã dọn dẹp";
             this.btnPhong2.ItemMaPhong = "P102";
             this.btnPhong2.ItemSoNgay = "2 ngày";
-            this.btnPhong2.ItemTinhTrang = "Đang thêu";
-            this.btnPhong2.ItemTrangThai = "Đang thêu";
+            this.btnPhong2.ItemTinhTrang = "Đang thuê";
+            this.btnPhong2.ItemTrangThai = "Đang thuê";
             this.btnPhong2.Location = new System.Drawing.Point(239, 3);
             this.btnPhong2.Name = "btnPhong2";
             this.btnPhong2.Size = new System.Drawing.Size(230, 130);
