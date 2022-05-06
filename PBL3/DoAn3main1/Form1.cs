@@ -61,7 +61,7 @@ namespace DoAn3main1
         private void btnKhachHang_Click(object sender, EventArgs e)
         {
             //loadform(new KhachHangForm());
-            openChildForm(new DatPhong());
+            openChildForm(new KhachHangForm());
             SetDateMenuButtonUI(sender);
         }
 
@@ -86,6 +86,7 @@ namespace DoAn3main1
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
             SetDateMenuButtonUI(sender);
+            openChildForm(new NhanVienForm());
         }
 
         private void btnDoanhThu_Click(object sender, EventArgs e)

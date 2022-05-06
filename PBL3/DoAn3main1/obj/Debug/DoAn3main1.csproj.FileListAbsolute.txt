@@ -16,7 +16,6 @@ C:\Users\Admin\PBL3\PBL3\DoAn3main1\bin\Debug\DoAn3main1.exe
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\bin\Debug\DoAn3main1.pdb
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.csproj.AssemblyReference.cache
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.DatPhong.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.DatPhong1.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.Form1.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.Properties.Resources.resources
@@ -28,3 +27,5 @@ C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.btnPhong.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.ChiTietPhongForm.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.PhongForm.resources
 C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.DichVuForm.resources
+C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.NhanVienForm.resources
+C:\Users\Admin\PBL3\PBL3\DoAn3main1\obj\Debug\DoAn3main1.KhachHangForm.resources

@@ -1,6 +1,6 @@
 ﻿namespace DoAn3main1
 {
-    partial class DatPhong
+    partial class KhachHangForm
     {
         /// <summary>
         /// Required designer variable.
@@ -48,13 +48,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridViewMF = new System.Windows.Forms.DataGridView();
-            this.M1KH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMF)).BeginInit();
             this.SuspendLayout();
@@ -244,14 +237,6 @@
             this.dataGridViewMF.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewMF.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridViewMF.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMF.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.M1KH,
-            this.MaKH,
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dataGridViewMF.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridViewMF.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(83)))), ((int)(((byte)(255)))));
             this.dataGridViewMF.Location = new System.Drawing.Point(0, 192);
@@ -259,42 +244,7 @@
             this.dataGridViewMF.Size = new System.Drawing.Size(935, 317);
             this.dataGridViewMF.TabIndex = 2;
             // 
-            // M1KH
-            // 
-            this.M1KH.HeaderText = "STT";
-            this.M1KH.Name = "M1KH";
-            // 
-            // MaKH
-            // 
-            this.MaKH.HeaderText = "MaKH";
-            this.MaKH.Name = "MaKH";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "TenKH";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "CCCD";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Số điện thoại";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Quốc tịch";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Giới tính";
-            this.Column5.Name = "Column5";
-            // 
-            // DatPhong
+            // KhachHangForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -302,7 +252,7 @@
             this.Controls.Add(this.dataGridViewMF);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "DatPhong";
+            this.Name = "KhachHangForm";
             this.Text = "DatPhong";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -333,12 +283,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridViewMF;
-        private System.Windows.Forms.DataGridViewTextBoxColumn M1KH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaKH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }

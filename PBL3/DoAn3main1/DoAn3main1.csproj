@@ -58,11 +58,11 @@
     <Compile Include="ChiTietPhongForm.Designer.cs">
       <DependentUpon>ChiTietPhongForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatPhong.cs">
+    <Compile Include="KhachHangForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatPhong.Designer.cs">
-      <DependentUpon>DatPhong.cs</DependentUpon>
+    <Compile Include="KhachHangForm.Designer.cs">
+      <DependentUpon>KhachHangForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DatPhong1.cs">
       <SubType>Form</SubType>
@@ -82,6 +82,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NhanVienForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVienForm.Designer.cs">
+      <DependentUpon>NhanVienForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PhongForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,8 +102,8 @@
     <EmbeddedResource Include="ChiTietPhongForm.resx">
       <DependentUpon>ChiTietPhongForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatPhong.resx">
-      <DependentUpon>DatPhong.cs</DependentUpon>
+    <EmbeddedResource Include="KhachHangForm.resx">
+      <DependentUpon>KhachHangForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DatPhong1.resx">
       <DependentUpon>DatPhong1.cs</DependentUpon>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVienForm.resx">
+      <DependentUpon>NhanVienForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhongForm.resx">
       <DependentUpon>PhongForm.cs</DependentUpon>

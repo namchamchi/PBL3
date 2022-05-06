@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAn3main1
 {
-    public partial class DatPhong : Form
+    public partial class KhachHangForm : Form
     {
-        public DatPhong()
+        public KhachHangForm()
         {
             InitializeComponent();
         }
